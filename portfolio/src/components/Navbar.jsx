@@ -4,6 +4,7 @@ import { links } from '../data'
 import "./navbar.css"
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
+  console.log('innnnnnnnnn')
   return (
     <div>
       <nav className='nav'>
