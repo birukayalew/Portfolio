@@ -5,7 +5,7 @@ import './App.css'
 import Navbar from './components/Navbar'
 import Home from './pages/home/home'
 import About from './pages/about/about'
-import Portfolio from './pages/portfolio/portfolio'
+import Portfolio from './pages/portfolio/Portfolio'
 import Contact from './pages/contact/Contact'
 
 
