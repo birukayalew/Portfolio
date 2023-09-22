@@ -4,6 +4,7 @@
 .resume__container
  {
     grid-template-columns: repeat(2, 1fr);  
+    align-items: flex-start;
 }
 
 .info__list {
@@ -165,3 +166,8 @@
     background-color: var(--text-color);
 }
 
+
+.resume__description {
+    font-size: var(--smaller-font-size);
+line-height: 1.6;
+}
