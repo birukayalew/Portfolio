@@ -82,7 +82,7 @@
 
 .modal__list {
     grid-template-columns: repeat(2, 1fr);
-    row-gap: 10px;
+    row-gap: 10px !important;
     margin-bottom: 24px;
 }
 
@@ -97,10 +97,12 @@
 }
 
 .item__title,
-.item__details {
+.item__details,
+.desc__link {
     color: var(--title-color);
     font-size: var(--small-font-size);
 } 
+
 
 .item_-details {
     font-weight: var(--weight-600);

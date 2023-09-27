@@ -12,7 +12,7 @@ import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
 import Work1 from './assets/project-1.jpeg';
 import Work2 from './assets/project-2.jpg';
 import Work3 from './assets/project-3.jpeg';
-import Work4 from './assets/project-4.jpeg';
+import Work4 from './assets/project-4.jpg';
 import Work5 from './assets/project-5.jpg';
 import Work6 from './assets/project-6.jpg';
 
@@ -61,25 +61,25 @@ export const personalInfo = [
   {
     id: 1,
     title: 'First Name : ',
-    description: 'Steve',
+    description: 'Biruk',
   },
 
   {
     id: 2,
     title: 'Last Name : ',
-    description: 'Milner',
+    description: 'Tadesse',
   },
 
   {
     id: 3,
     title: 'Age : ',
-    description: '27 Years',
+    description: '23 Years',
   },
 
   {
     id: 4,
     title: 'Nationality : ',
-    description: 'Tunisian',
+    description: 'Ethiopian',
   },
 
   {
@@ -91,163 +91,220 @@ export const personalInfo = [
   {
     id: 6,
     title: 'Address : ',
-    description: 'Tunis',
+    description: 'Addis Ababa',
   },
 
   {
     id: 7,
     title: 'Phone : ',
-    description: '+21621184010',
+    description: '+251953266119',
   },
 
   {
     id: 8,
     title: 'Email : ',
-    description: 'you@mail.com',
-  },
-
-  {
-    id: 9,
-    title: 'Skype : ',
-    description: 'steve.milner',
+    description: 'se.biruk.ayalew@gmail.com',
   },
 
   {
     id: 10,
-    title: 'Langages : ',
-    description: 'French, English',
+    title: 'Languages : ',
+    description: 'English, Amharic',
   },
 ];
 
 export const stats = [
   {
     id: 1,
-    no: '12+',
+    no: '4+',
     title: 'Years of <br /> Experience',
   },
 
   {
     id: 2,
-    no: '97+',
+    no: '10+',
     title: 'Completed <br /> Projects',
   },
 
   {
     id: 3,
-    no: '81+',
+    no: '10+',
     title: 'Happy <br /> Customers',
   },
 
   {
     id: 4,
-    no: '53+',
+    no: '5+',
     title: ' Awards <br /> Won',
   },
 ];
 
-export const resume = [
+export const resume = [ 
   {
     id: 1,
     category: 'experience',
     icon: <FaBriefcase />,
-    year: '2018 - PRESENT',
-    title: 'Web Developer <span> Envato </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,',
+    year: '2023 - PRESENT',
+    title: 'Freelancer <span> Upwork </span>',
+    desc: 'I am currently a freelance professional on Upwork, and \
+    my ongoing project involves developing a comprehensive system \
+    designed to empower job seekers in their quest to secure employment.\
+    Within this project, my primary focus revolves around enhancing the personalized recommendation \
+    system.This system utilizes advanced data scraping techniques to analyze resumes, generate \
+    customized cover letters, and offer valuable suggestions based on the latest trends in the job market.',
   },
 
   {
     id: 2,
     category: 'experience',
     icon: <FaBriefcase />,
-    year: '2013 - 2018',
-    title: 'UI/UX Designer <span> Themeforest </span>',
-    desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
+    year: '07/2022 - 09/2022,',
+    title: 'Software Engineering Intern <span> Google </span>',
+    desc: 'Worked on internal feature of Google Family Link Application. Besides, \
+    I Wrote a design document outlining changes and design considerations we need for the project.\
+    I worked on both frontend and backend parts of the project using Flutter and Java',
   },
 
   {
     id: 3,
     category: 'experience',
     icon: <FaBriefcase />,
-    year: '2005 - 2013',
-    title: 'Consultant <span> Videohive </span>',
-    desc: 'Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur elit, sed do eiusmod tempor duntt',
+    year: '03/2022 - 06/2022,',
+    title: 'Full Stack Developer <span> AAIT </span>',
+    desc: "I contributed to prototype design, testing, and backend development, \
+    focusing on user friendly interfaces and seamless user experiences.The PMRS(Project Management and Report System) \
+    digitized and automated project workflows, eliminating paper-based processes and improving efficiency and \
+    collaboration. It has transformed the Addis Ababa Institute of Technology University's project management \
+    processes, making PMRS the primary system for planning and management.",
   },
 
   {
     id: 4,
-    category: 'education',
-    icon: <FaGraduationCap />,
-    year: '2015',
-    title: 'Engineering Degree <span> Oxford University </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore',
+    category: 'experience',
+    icon: <FaBriefcase />,
+    year: '07/2021 - 12/2021, ,',
+    title: 'Backend Developer <span> A2SV(Eskalate) </span>',
+    desc: "I worked as a backend engineer with a team of 14 students to design and develop HakimHub with NodeJS \
+    and MongoDB. HakimHub is an app that provides information about the nearby healthcare facilities and \
+    healthcare professionals for young and educated people in Ethiopia.",
   },
 
   {
     id: 5,
     category: 'education',
     icon: <FaGraduationCap />,
-    year: '2012',
-    title: 'Master Degree <span> KIEV University </span>',
-    desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
+    year: '2023',
+    title: 'Bachelor Degree <span> Addis Ababa Institute of Technology </span>',
+    desc: "I earned my bachelor's degree with a very great distinction from one of the top 10 universities in Africa.",
   },
 
   {
     id: 6,
     category: 'education',
     icon: <FaGraduationCap />,
-    year: '2009',
-    title: 'Bachelor Degree <span> Tunis High School </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore',
+    year: '2018',
+    title: 'High School Diploma <span> Dessie Catholic School </span>',
+    desc: 'I have proudly earned my high school diploma with the highest honors from my school.',
   },
 ];
 
 export const skills = [
   {
     id: 1,
-    title: 'Html',
-    percentage: '25',
+    title: 'HTML/CSS',
+    percentage: '100',
   },
 
   {
     id: 2,
     title: 'Javascript',
-    percentage: '89',
+    percentage: '100',
   },
 
   {
+    id: 2,
+    title: 'Typescript',
+    percentage: '100',
+  },
+  
+
+  {
     id: 3,
-    title: 'Css',
-    percentage: '70',
+    title: 'React.js',
+    percentage: '100',
   },
 
   {
     id: 4,
-    title: 'Php',
-    percentage: '66',
+    title: 'Node.js',
+    percentage: '100',
   },
 
   {
     id: 5,
-    title: 'Wordpress',
-    percentage: '95',
+    title: 'Django',
+    percentage: '100',
   },
 
   {
     id: 6,
-    title: 'Jquery',
-    percentage: '50',
+    title: 'Flask',
+    percentage: '100',
   },
 
   {
     id: 7,
-    title: 'Angular',
-    percentage: '65',
+    title: 'Flutter',
+    percentage: '100',
   },
 
   {
     id: 8,
-    title: 'React',
-    percentage: '45',
+    title: 'Python & Java',
+    percentage: '100',
+  },
+
+  {
+    id: 9,
+    title: 'Tailwind CSS',
+    percentage: '100',
+  },
+
+  {
+    id: 10,
+    title: 'Material UI',
+    percentage: '100',
+  },
+
+  {
+    id: 11,
+    title: 'Bootstrap',
+    percentage: '100',
+  },
+
+  {
+    id: 12,
+    title: 'Angular',
+    percentage: '80',
+  },
+
+  {
+    id: 13,
+    title: 'Vue.js',
+    percentage: '80',
+  },
+
+  {
+    id: 14,
+    title: 'React Native',
+    percentage: '80',
+  },
+
+
+  {
+    id: 15,
+    title: 'C#',
+    percentage: '80',
   },
 ];
 
@@ -255,27 +312,27 @@ export const portfolio = [
   {
     id: 1,
     img: Work1,
-    title: 'Photo Editing',
+    title: 'Movie Center',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Photo',
+        desc: 'Movie Center',
       },
       {
         icon: <FiUser />,
         title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'Personal',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Adobe Photoshop',
+        desc: 'React.js',
       },
       {
         icon: <FiExternalLink />,
-        title: 'Preview : ',
-        desc: 'www.dribble.com',
+        title: '',
+        desc: 'https://github.com/birukayalew/MovieCenter',
       },
     ],
   },
@@ -283,27 +340,27 @@ export const portfolio = [
   {
     id: 2,
     img: Work2,
-    title: 'Website Design',
+    title: 'Medical Chat App',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Website',
+        desc: 'Medical Chat App',
       },
       {
         icon: <FiUser />,
         title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'Personal',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'React JS',
+        desc: 'React.js + Node.js',
       },
       {
         icon: <FiExternalLink />,
-        title: 'Preview : ',
-        desc: 'www.dribble.com',
+        title: '',
+        desc: 'https://github.com/birukayalew/Medical-Chat-App',
       },
     ],
   },
@@ -311,27 +368,27 @@ export const portfolio = [
   {
     id: 3,
     img: Work3,
-    title: 'Video Editing',
+    title: 'E commerce',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Video',
+        desc: 'E commerce',
       },
       {
         icon: <FiUser />,
         title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'Personal',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Adobe Premium',
+        desc: 'Node.js(MVC)',
       },
       {
         icon: <FiExternalLink />,
-        title: 'Preview : ',
-        desc: 'www.dribble.com',
+        title: '',
+        desc: 'https://github.com/birukayalew/Ecommerce',
       },
     ],
   },
@@ -339,27 +396,27 @@ export const portfolio = [
   {
     id: 4,
     img: Work4,
-    title: 'Video Editing',
+    title: 'Fitness Tracker',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Video',
+        desc: 'Fitness Tracker',
       },
       {
         icon: <FiUser />,
         title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'Personal',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Adobe Premium',
+        desc: 'Angular, ',
       },
       {
         icon: <FiExternalLink />,
-        title: 'Preview : ',
-        desc: 'www.dribble.com',
+        title: '',
+        desc: 'https://github.com/birukayalew/FitnessTracker',
       },
     ],
   },
@@ -367,23 +424,27 @@ export const portfolio = [
   {
     id: 5,
     img: Work5,
-    title: 'Landing Page',
+    title: 'Advertising Platform',
     details: [
       {
+        icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Website',
+        desc: 'Advertising Platform',
       },
       {
+        icon: <FiUser />,
         title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'AAiT University',
       },
       {
+        icon: <FaCode />,
         title: 'Language : ',
-        desc: 'React JS, Node JS',
+        desc: 'React JS & Django',
       },
       {
-        title: 'Preview : ',
-        desc: 'www.dribble.com',
+        icon: <FiExternalLink />,
+        title: '',
+        desc: 'https://github.com/Ethusiasts/AdvertisementPlatform-Frontend',
       },
     ],
   },
@@ -391,27 +452,27 @@ export const portfolio = [
   {
     id: 6,
     img: Work6,
-    title: 'Photo Editing',
+    title: 'Tourist Guide',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Photo',
+        desc: 'Tourist Guide',
       },
       {
         icon: <FiUser />,
         title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'AAiT University',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Adobe Photoshop',
+        desc: 'Flutter & Flask',
       },
       {
         icon: <FiExternalLink />,
-        title: 'Preview : ',
-        desc: 'www.dibble.com',
+        title: '',
+        desc: 'https://github.com/TitansonFlutter/TouristGuide',
       },
     ],
   },
